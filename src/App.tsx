@@ -13,7 +13,6 @@ const App = () => {
       let shiftX = e.clientX - thumb.getBoundingClientRect().left;
 
       const onMouseMove = (event: MouseEvent) => {
-        console.log(event);
 
         let newLeft = event.clientX - shiftX - slider.getBoundingClientRect().left;
 
