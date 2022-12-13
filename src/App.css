@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.slider {
+  border-radius: 5px;
+  background: #e0e0e0;
+  background: linear-gradient(left top, #e0e0e0, #eeeeee);
+  width: 80vw;
+  height: 15px;
+}
+
+.thumb {
+  width: 10px;
+  height: 25px;
+  border-radius: 3px;
+  position: relative;
+  left: 10px;
+  top: -5px;
+  background: blue;
+  cursor: pointer;
+}
